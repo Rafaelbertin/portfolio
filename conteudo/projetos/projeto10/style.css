@@ -1,0 +1,85 @@
+:root{
+    --white: #fff;
+    --black: #000;
+}
+
+body{
+    background: linear-gradient(120deg, #dbd39d18, #922e2eda);
+    color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: var(--black);
+}
+
+a:hover{
+    color: gray;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: gray;
+    color: var(--black);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    color:red;
+}
+/*line-height: 20px; controla o espaço entre os texto*/
+P{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 580px;
+    
+}
+.gym1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gym1 img{
+    width: 700px;
+}
